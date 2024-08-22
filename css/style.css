@@ -1,0 +1,108 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+:root {
+    --cor1: rgb(250, 245, 183);
+    --cor2: #000000;
+    --cor3: #B4E1B4;
+    --cor4: #DFFFD6;
+    --cor5: #5FBF5F;
+    }
+    
+
+body {
+    background-color: var(--cor2);
+    margin: 5%;
+}
+
+main{
+    background-color: var(--cor3);
+    padding: 20px;
+    border: 10px;
+    
+}
+
+h1 {
+    margin-left: 33%;
+    border: 1px solid var(--cor1);
+    border-radius: 15px;
+    background-color: var(--cor4);
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    font-size: medium;
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 5%;
+    line-height: 1.5;
+
+
+}
+
+.index {
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    width: 180px;
+    background-color: var(--cor4);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 10px;
+    z-index: 1000;
+}
+
+.index a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: var(--cor3);
+}
+
+.index a:hover {
+    background-color: var(--cor5);
+    margin-bottom: 20px;
+}
+
+#historia, #diferenciais {
+    text-align: center;
+}
+
+footer {
+    border-radius: 10px;
+    background-color: var(--cor3); 
+    color: var(--cor2); 
+    text-align: center; 
+    padding: 20px;
+    margin-right: 50px;
+    bottom: 0; 
+    width: 100%;
+}
+
+/* Estiliza o parágrafo dentro do rodapé */
+footer p {
+    margin: 0; 
+}
+
+/* Estiliza a lista no rodapé */
+footer ul {
+    list-style-type: none; 
+}
+
+footer ul li {
+    margin: 5px ; 
+}
